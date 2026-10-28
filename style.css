@@ -1,0 +1,90 @@
+/*pengaturan umum*/
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #FFFBEA;
+    color: #5B7690;
+}
+/*header*/
+header {
+background-color: #FFF1B8;
+color: #5B7690;
+text-align: center;
+padding: 25px;
+}
+nav {
+    background-color: #B5D3EA;
+    text-align: center;
+    padding: 0px;
+}
+nav a {
+    color: #3F5F7A;
+    margin: 0px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    margin: 25px auto;
+    padding: 0% 20px;
+}
+.banner {
+    background-color: #FFF6CC;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.tombol {
+    background-color: #9CC4E4;
+    color: #3F5F7A;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+.tombol:hover {
+    background-color: #7FB0D8;
+}
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.produk {
+    background-color: #DCEBF7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px #BFD9EE;
+}
+.produk-button {
+    background-color: #6FA3CE;
+    color: #FFFDF2;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.produk button:hover{
+    background-color: #FFF1B8;
+    color: #4F6D85;
+}
+.tentang.kontak{
+    background-color: #FFF9DA;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #5B7690;
+}
+footer{
+    background-color: #B5D3EA;
+    color: #34506A;
+    text-align: center;
+    padding: 25px;
+}
